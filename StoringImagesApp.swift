@@ -13,7 +13,7 @@ struct StoringImagesApp: App {
         WindowGroup {
             NavigationStack {
                 ContentView()
-            }
+            }.modelContainer(for: Furniture.self)
         }
     }
 }
